@@ -1,0 +1,6 @@
+Overview - CoDeKu Paid Micro Tasks
+1.  You can see the available Task Folders under this category here.
+2.  Make sure to select the correct Task Folders
+3.  Rename your solution like [Task code]_[Your Github Username]
+4.  Then push to and make a pr.
+5. Enjoy!
