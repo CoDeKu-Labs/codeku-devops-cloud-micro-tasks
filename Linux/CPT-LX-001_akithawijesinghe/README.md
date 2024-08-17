@@ -60,12 +60,12 @@ Wait for 10 minutes and then check the log file to ensure that new entries are b
     cat system_monitor.log
 
 ## Summary of the Steps
-Clone the repository and navigate to the script directory.
-Create and edit the script in system_monitor.sh.
-Make the script executable with chmod +x.
-Run the script manually to log system resource usage.
-View the logs to verify the output.
-Optionally, set up a cron job to automate script execution every 10 minutes.
+- Clone the repository and navigate to the script directory.
+- Create and edit the script in system_monitor.sh.
+- Make the script executable with chmod +x.
+- Run the script manually to log system resource usage.
+- View the logs to verify the output.
+- Optionally, set up a cron job to automate script execution every 10 minutes.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
