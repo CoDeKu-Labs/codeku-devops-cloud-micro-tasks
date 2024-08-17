@@ -22,7 +22,11 @@ cd codeku-devops-cloud-micro-tasks
 
     chmod +x system_monitor.sh
 
-### Step 3: View the Log File
+### Step 3: Run the Script Manually
+
+    ./system_monitor.sh
+
+### Step 4: View the Log File
 
     cat system_monitor.log
 
