@@ -15,6 +15,7 @@ This repository contains a Bash script (`system_monitor.sh`) that monitors syste
 First, clone the repository to your local machine.
 
 git clone https://github.com/Chathuwa-67/codeku-devops-cloud-micro-tasks.git
+
 cd codeku-devops-cloud-micro-tasks
 
 ### Step 2: Make the Script Executable
@@ -35,7 +36,7 @@ crontab -e
 
 ### 2.Add the following line to schedule the script every 10 minutes:
 
-_/10 _ \* \* \* /path/to/your/system_monitor.sh
+*/10 * * * * /path/to/your/system_monitor.sh
 
 Replace /path/to/your/ with the actual path to the script on your machine.
 for mine it's C:\Users\Administrator\Desktop\CodeKu\codeku-devops-cloud-micro-tasks\Linux\CPT-LX-001\CPT-LX-001_Chathuwa-67 like that.
