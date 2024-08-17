@@ -43,6 +43,14 @@ for mine it's C:\Users\Administrator\Desktop\CodeKu\codeku-devops-cloud-micro-ta
 
 ### 3.Save and exit the crontab editor.
 
+### 4: Verify the Cron Job (Optional)
+Wait for 10 minutes to see if the script runs automatically.
+
+Check the system_monitor.log file again to verify that new entries have been added:
+
+    cat system_monitor.log
+
+
 ### Summary of the Steps:
 
 1. **Clone the repository** and navigate to the script directory.
