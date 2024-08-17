@@ -1,4 +1,4 @@
-####Basic Bash Script for System Monitoring
+### Basic Bash Script for System Monitoring
 
 This script monitors system resources (CPU, memory, and disk usage) and logs the output to a file.
 
