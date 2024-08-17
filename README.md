@@ -17,6 +17,7 @@ Micro tasks are small, manageable tasks designed to be completed within 10 minut
 5. Monitoring and Logging
 6. Cloud Services
 7. Documentation and Blog Writing
+8. Linux
 
 ## Why Choose CoDeKu Micro Tasks?
 
@@ -62,6 +63,11 @@ Micro tasks are small, manageable tasks designed to be completed within 10 minut
 - Write how-to guides, tutorials, and product reviews.
 - Share knowledge and stay updated with the latest trends in DevOps and cloud.
 - Engage with the community through insightful blog posts and documentation.
+
+### Linux
+- Shell Scripting
+- Linux Administration
+- Automation Tasks etc...
 
 
 ## Getting Started
