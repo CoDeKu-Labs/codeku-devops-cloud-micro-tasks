@@ -15,7 +15,7 @@ This repository contains a Bash script (`system_monitor.sh`) that monitors syste
 
 First, clone the repository to your local machine.
 
-```bash
+
 git clone https://github.com/Bcoderx6/codeku-devops-cloud-micro-tasks.git
 cd codeku-devops-cloud-micro-tasks
 ```
@@ -68,9 +68,4 @@ To automatically run the script at regular intervals (e.g., every 10 minutes), y
 
 Wait for 10 minutes to see if the script runs automatically.
 
-Check the `system_monitor.log` file again to verify that new entries have been added:
-
-```bash
-cat system_monitor.log
-```
-```
+Check the `system_monitor.log` file again to verify that new entries have been added
