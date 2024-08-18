@@ -1,0 +1,14 @@
+####### System Monitoring Report #######
+
+Date : [2024-08-19 02:27:39]
+
+### CPU Usage ###
+0.29%
+
+### Memory Usage ###
+482Mi used out of 7.6Gi
+
+### Disk Usage ###
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc       1007G  1.1G  955G   1% /
+--------------------------------------------
