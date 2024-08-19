@@ -27,15 +27,11 @@ Run the following commands to install the required packages using terminal:
 - The nano editor will be opened.Then, need to write the script and press Ctrl + O, then Enter to save. Press Ctrl + X to exit nano.
 ### Run the script
 
-`chmod +x system_monitor.sh`
+- Make the script executable : `chmod +x system_monitor.sh`
 
-### Test the script
+- Run the script : `./system_monitor.sh`
 
-`./system_monitor.sh`
-
-- Check the log file to ensure the output is logged correctly:
-  
-`cat /path_to_log_file/system_monitor.log`
+- Check the log file to ensure the output is logged correctly: `cat /path_to_log_file/system_monitor.log`
 
 ## Set Up a Cron Job (Optional)
 
