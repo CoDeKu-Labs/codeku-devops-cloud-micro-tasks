@@ -25,20 +25,28 @@ sudo apt-get install sysstat bc coreutils
   `nano system_monitor.sh`
 - The nano editor will be opened.Then, need to write the script and press Ctrl + O, then Enter to save. Press Ctrl + X to exit nano.
 ### Run the script
+
 `chmod +x system_monitor.sh`
+
 ### Test the script
+
 `./system_monitor.sh`
+
 - Check the log file to ensure the output is logged correctly:
+  
 `cat /path_to_log_file/system_monitor.log`
 
 ## Set Up a Cron Job (Optional)
 
 Make sure the cron daemon is running on your system:
+
 `sudo service cron status`
-If it isn't running,start with:
-`sudo service cron start`
-- Open the crontab file for editing : 
-`crontab -e`
+
+If it isn't running,start with: `sudo service cron start`
+
+- Open the crontab file for editing :  `crontab -e`
+  
 It might ask you to choose an editor (like nano). You need to add a cron job using below syntax (you need to insert the job at the bottom of the file)
+
 ` */10 * * * * >> /path/to/system_monitor.sh`
 
