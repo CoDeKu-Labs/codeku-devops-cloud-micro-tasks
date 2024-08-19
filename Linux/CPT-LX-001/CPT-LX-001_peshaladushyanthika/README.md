@@ -54,3 +54,5 @@ It might ask you to choose an editor (like nano). You need to add a cron job usi
 - Check that your cron job was correctly added by listing your cron jobs: `crontab -l`
 
 - Monitor the log file (system_monitor.log) to see if it's being updated every 10 minutes.
+
+By following the steps above, you'll have a system monitoring script that logs CPU, memory, and disk usage.
