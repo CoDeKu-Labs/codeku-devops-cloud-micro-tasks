@@ -14,8 +14,9 @@ Before running the script, you need to install the following packages:
 
 Run the following commands to install the required packages using terminal:
 
-sudo apt-get update
-sudo apt-get install sysstat bc coreutils
+`sudo apt-get update`
+
+`sudo apt-get install sysstat bc coreutils`
 
 ## Steps to Create and Run the Script
 
@@ -50,3 +51,6 @@ It might ask you to choose an editor (like nano). You need to add a cron job usi
 
 ` */10 * * * * >> /path/to/system_monitor.sh`
 
+- Check that your cron job was correctly added by listing your cron jobs: `crontab -l`
+
+- Monitor the log file (system_monitor.log) to see if it's being updated every 10 minutes.
