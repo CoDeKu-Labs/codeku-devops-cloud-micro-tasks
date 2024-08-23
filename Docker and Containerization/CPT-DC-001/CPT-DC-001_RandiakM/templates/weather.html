@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather in {{ weather.city }}</title>
+</head>
+<body>
+    <h1>Weather in {{ weather.city }}</h1>
+    <p>Temperature: {{ weather.temperature }}°C</p>
+    <p>Description: {{ weather.description }}</p>
+    <p>Humidity: {{ weather.humidity }}%</p>
+    <p>Wind Speed: {{ weather.wind_speed }} m/s</p>
+    <p><a href="{{ url_for('home') }}">Back to City List</a></p>
+</body>
+</html>
